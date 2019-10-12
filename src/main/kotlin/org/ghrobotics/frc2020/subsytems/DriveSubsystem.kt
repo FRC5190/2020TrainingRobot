@@ -56,16 +56,6 @@ object DriveSubsystem : FalconSubsystem() { //extends FalconSubsystem base class
 
     }
 
-
-
-    fun set(left: Double, right: Double){
-        leftMaster.setDutyCycle(left)
-        rightMaster.setDutyCycle(right)
-    }
-
-
-
-
 }
 
 
