@@ -56,8 +56,8 @@ object DriveSubsystem : FalconSubsystem() { //extends FalconSubsystem base class
 
     }
 
-    fun set(left: Double, right: Double){ //in Kotlin variables go first, then datatype
-        leftMaster.setDutyCycle(left) //(percentoutput)sends it voltage between 0 and 12
+    fun set(left: Double, right: Double){
+        leftMaster.setDutyCycle(left) //sends it voltage between 0 and 12
         rightMaster.setDutyCycle(right)
     }
 
